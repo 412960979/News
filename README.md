@@ -2,7 +2,7 @@ News:阅读类软件
 ============================
 News是一款开源阅读类APP。项目采用MVP模式开发，通过动画和自定义的UI来提高阅读体验。一共分为4个模块：图片，文章，音乐，影视。
 
-![](https://github.com/412960979/News/raw/master/app/src/main/res/mipmap-hdpi/ic_launcher.png)
+![](https://github.com/412960979/News/blob/master/%E6%BC%94%E7%A4%BA.gif)
 
 目前1.0版本支持的功能
 ----------------------------
