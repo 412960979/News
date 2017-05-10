@@ -108,7 +108,7 @@ public class AboutActivity extends AppCompatActivity {
                     gmail.setOnClickListener(v -> Snackbar.make(scrollView, "weining412960979@gmail.com", Snackbar.LENGTH_LONG).show());
                     github.setOnClickListener(v -> {
                         Intent it = new Intent(Intent.ACTION_VIEW);
-                        it.setData(Uri.parse("http://www.pingan.com/")); //这里面是需要调转的rul
+                        it.setData(Uri.parse("https://github.com/412960979/News.git"));
                         it = Intent.createChooser(it, null);
                         host.startActivity(it);
                     });
