@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.study.news.ui.ElasticDragDismissFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/draggable_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:dragDismissDistance="168dp"
+    app:dragDismissScale="0.95">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.study.news.ui.InkPageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="16dp"
+        app:pageIndicatorColor="#80333333"
+        app:currentPageIndicatorColor="#ff333333" />
+
+</com.study.news.ui.ElasticDragDismissFrameLayout>

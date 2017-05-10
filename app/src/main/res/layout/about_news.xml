@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:nestedScrollingEnabled="true"
+    tools:showIn="@layout/activity_about"
+    android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/accent"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/immersive_bars"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/about_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:letterSpacing="0.2"
+            android:lineSpacingExtra="6dp"
+            android:lineSpacingMultiplier="1"
+            android:text="News是一款开源阅读类APP，通过动画和自定义的UI来提高阅读体验。一共分为4个模块：图片，文章，音乐，影视。目前支持查看模块详情，查看点赞数，支持分享。下个版本将会支持点赞，评论，和查看评论列表以及登录功能。 \n\n声明：本项目仅供个人学习使用，不用做任何商业用途。接口数据来自于One，本人从网络获取，如被告知停止使用，本人会及时删除整个项目。"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="News is writen by WeiNing"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/gmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Gamil"
+            android:textColor="@color/accent"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:text="The Source code is available on "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/github"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/address"
+                android:autoLink="all"
+                android:gravity="center"
+                android:text="Github"
+                android:textColor="@color/accent"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

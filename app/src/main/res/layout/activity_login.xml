@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="dismiss">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingEnd="24dp"
+        android:paddingStart="16dp"
+        android:paddingTop="24dp"
+        android:transitionName="@string/news_login" />
+</FrameLayout>

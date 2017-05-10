@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="action_settings">Settings</string>
+    <string name="transition_login">登录动画</string>
+
+    <string name="news_login" translatable="false">news_login</string>
+</resources>

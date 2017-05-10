@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:interpolator/fast_out_slow_in">
+
+    <objectAnimator
+        android:propertyName="pathData"
+        android:valueFrom="M18,19m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0 M6,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0 M18,5m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:valueTo="M12,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0 M12,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0 M12,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:duration="120"
+        android:valueType="pathType" />
+
+    <objectAnimator
+        android:propertyName="pathData"
+        android:valueFrom="M12,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0 M12,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0 M12,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:valueTo="M18,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0 M18,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0 M6,5m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:startOffset="450"
+        android:duration="150"
+        android:valueType="pathType" />
+
+    <objectAnimator
+        android:propertyName="pathData"
+        android:valueFrom="M18,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0 M18,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0 M6,5m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:valueTo="M18,19m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0 M6,12m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0 M18,5m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"
+        android:startOffset="700"
+        android:duration="250"
+        android:valueType="pathType" />
+
+</set>

@@ -1,0 +1,97 @@
+<resources>
+
+    <style name="News" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:navigationBarColor">@color/background_super_dark</item>
+        <item name="android:statusBarColor">@color/background_super_dark</item>
+        <item name="android:textColorHint">@color/hint_disabled_dark</item>
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+    </style>
+
+    <style name="News.Home">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/immersive_bars</item>
+        <item name="android:navigationBarColor">@color/immersive_bars</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+    </style>
+
+    <style name="Widget.Plaid" parent="android:Widget" />
+
+    <style name="PlaidDarkOverlay" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+    </style>
+
+    <style name="Widget.Plaid.Toolbar.SmallCapsTitle">
+        <item name="android:titleTextAppearance">@style/TextAppearance.ToolbarTitleSmallCaps</item>
+    </style>
+
+    <style name="TextAppearance.ToolbarTitleSmallCaps" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/text_primary_light</item>
+        <item name="android:fontFeatureSettings">smcp</item>
+        <item name="android:letterSpacing">0.2</item>
+    </style>
+
+    <style name="Widget.Plaid.Toolbar">
+        <item name="android:titleTextAppearance">@android:style/TextAppearance.Material.Widget.ActionBar.Title</item>
+        <item name="android:background">?android:colorPrimary</item>
+        <item name="android:elevation">@dimen/z_app_bar</item>
+        <item name="android:theme">@style/PlaidDarkOverlay</item>
+    </style>
+
+    <style name="Widget.Plaid.HomeToolbar" parent="Widget.Plaid.Toolbar.SmallCapsTitle">
+        <item name="android:background">@null</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:theme">@android:style/ThemeOverlay.Material.Dark</item>
+    </style>
+
+    <style name="News.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="News.Translucent">
+        <item name="android:windowBackground">@color/scrim</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="News.Translucent.DesignerNewsLogin">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:colorPrimary">@color/designer_news</item>
+        <item name="android:colorAccent">@color/designer_news</item>
+        <item name="android:statusBarColor">@color/designer_news_super_dark</item>
+        <item name="android:navigationBarColor">@color/designer_news_super_dark</item>
+        <item name="android:colorButtonNormal">@color/designer_news</item>
+        <item name="android:colorControlActivated">@color/designer_news</item>
+    </style>
+
+    <style name="News.Translucent.Essay">
+        <item name="android:windowSharedElementEnterTransition">@transition/essay_content_enter</item>
+        <item name="android:windowSharedElementReturnTransition">@transition/essay_content_return</item>
+        <item name="android:windowEnterTransition">@transition/essay_activity_enter</item>
+        <item name="android:windowReturnTransition">@transition/essay_activity_return</item>
+    </style>
+
+    <style name="News.Translucent.Image">
+        <item name="android:windowSharedElementEnterTransition">@transition/essay_content_enter</item>
+        <item name="android:windowSharedElementReturnTransition">@transition/essay_content_return</item>
+        <item name="android:windowEnterTransition">@transition/essay_activity_enter</item>
+        <item name="android:windowReturnTransition">@transition/essay_activity_return</item>
+    </style>
+    .
+    <style name="News.Translucent.About">
+        <item name="android:windowEnterTransition">@transition/about_enter</item>
+        <item name="android:windowReturnTransition">@transition/about_return</item>
+    </style>
+</resources>

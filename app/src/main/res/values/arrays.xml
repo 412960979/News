@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="channels">
+        <item>首页</item>
+        <item>阅读 </item>
+        <item>音乐</item>
+        <item>影视</item>
+        <item>豆瓣电影</item>
+    </string-array>
+</resources>

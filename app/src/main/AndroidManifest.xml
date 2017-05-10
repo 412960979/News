@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.study.news">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".app.NewsApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/News">
+        <activity
+            android:name="io.vov.vitamio.activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".startpage.StartActivity"
+            android:label="@string/app_name"
+            android:theme="@style/News.Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.LoginActivity"
+            android:theme="@style/News.Translucent.DesignerNewsLogin"
+            android:windowSoftInputMode="adjustResize" />
+
+        <meta-data
+            android:name="com.study.news.glide.GlideConfiguration"
+            android:value="GlideModule" />
+
+        <activity
+            android:name=".homepage.HomeActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:theme="@style/News.Home" />
+        <activity
+            android:name=".imagenews.ImageActivity"
+            android:theme="@style/News.Translucent.Image" />
+        <activity
+            android:name=".EssayDetail.EssayActivity"
+            android:theme="@style/News.Translucent.Essay" />
+        <activity
+            android:name=".MusicDetail.MusicDetailActivity"
+            android:theme="@style/News.Translucent.Essay" />
+        <activity
+            android:name=".VideoDetail.VideoDetailActivity"
+            android:theme="@style/News.Translucent.Essay" />
+        <activity
+            android:name=".about.AboutActivity"
+            android:theme="@style/News.Translucent.About" />
+    </application>
+
+</manifest>

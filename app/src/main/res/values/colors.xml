@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#69F0AE</color>
+    <color name="accent">#69F0AE</color>
+    <color name="primary_dark">#69F0AE</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="dark_icon">#99000000</color>
+    <color name="ripple_dark">#69F0AE</color>
+    <color name="mid_grey">#40808080</color>
+    <color name="background_light">#fafafa</color>
+    <color name="background_super_dark">#ff292929</color>
+    <color name="hint_disabled_dark">#43000000</color>
+    <color name="text_primary_light">#ffffffff</color>
+    <color name="immersive_bars">#99000000</color>
+    <color name="background_dark">#ff333333</color>
+    <color name="status_bar_back">#ff676767</color>
+    <color name="scrim">#99323232</color>
+    <color name="designer_news">#03a9f4</color>
+    <color name="designer_news_super_dark">#00000000</color>
+    <color name="gif_badge_dark_image">#b3ffffff</color>
+    <color name="divider">#1f000000</color>
+    <array name="loading_placeholders_dark">
+        <item>#ff191919</item>
+        <item>#ff212121</item>
+        <item>#ff232323</item>
+    </array>
+</resources>
